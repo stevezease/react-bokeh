@@ -1,0 +1,23 @@
+.bokeh-light {
+    border-radius: 50%;
+    animation-name: focus, fade;
+    position: absolute;
+}
+
+@keyframes focus {
+    0% {
+        filter: blur(2px);
+    }
+    100% {
+        filter: blur(20px);
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
